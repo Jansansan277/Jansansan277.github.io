@@ -1402,7 +1402,7 @@ pre code {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e9dfff;
+  background: #cbff52;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2192,6 +2192,13 @@ pre code {
   margin: 0.8em 2em 0 2em;
   max-width: 100%;
   width: 180px;
+}
+.post-body p a {
+  color: #345;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #00f;
 }
 .category-all-page .category-all-title {
   text-align: center;
